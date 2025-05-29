@@ -8,8 +8,11 @@
 #' @import methods
 #' @export
 load_book_data <- function() {
-  books <- data.table::fread("BX-Books.csv", sep = ";", quote = "\"", encoding = "Latin-1")
-  ratings <- data.table::fread("BX-Book-Ratings.csv", sep = ";", quote = "\"", encoding = "Latin-1")
+  book_path <- system.file("extdata", "BX-Books.csv", package = "bookrecommender")
+  rating_path <- system.file("extdata", "BX-Book-Ratings.csv", package = "bookrecommender")
+
+  books <- data.table::fread(book_path, sep = ";", quote = "\"", encoding = "Latin-1")
+  ratings <- data.table::fread(rating_path, sep = ";", quote = "\"", encoding = "Latin-1")
 
   data.table::setnames(books, old = c("ISBN", "Book-Title", "Book-Author"), new = c("item", "title", "author"))
   data.table::setnames(ratings, old = c("User-ID", "ISBN", "Book-Rating"), new = c("user", "item", "rating"))
