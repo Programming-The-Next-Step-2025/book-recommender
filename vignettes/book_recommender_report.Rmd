@@ -105,3 +105,29 @@ knitr::include_graphics("getrecommendation.png")
 ```{r image-plot4, echo = FALSE, out.width='25%', fig.align='center'}
 knitr::include_graphics("recommendations.png")
 ```
+
+# ***Installation and Running the App***
+
+To install the Book Recommender app from GitHub and launch it locally:
+
+```{r install-run, eval=FALSE, echo=TRUE}
+# Install devtools if you haven't already
+install.packages("devtools")
+
+# Install the app from GitHub
+devtools::install_github("Programming-The-Next-Step-2025/book-recommender")
+
+# Load the package and run the app
+bookrecommender::run_app()
+```
+
+Alternatively, if you want to open the full project as an RStudio project:
+
+```{r install-full, eval=FALSE, echo=TRUE}
+# Clone the repository and open as a project
+usethis::create_from_github("Programming-The-Next-Step-2025/book-recommender", fork = FALSE)
+
+# Then run this inside the project directory
+devtools::install()
+bookrecommender::run_app()
+```
