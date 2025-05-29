@@ -1,0 +1,26 @@
+{
+    "id": "0C80B15C",
+    "path": "~/Documents/GitHub/bookrecommender/R/load_book_data.R",
+    "project_path": "R/load_book_data.R",
+    "type": "r_source",
+    "hash": "3839310022",
+    "contents": "",
+    "dirty": false,
+    "created": 1748521084597.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "10,32",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1748521720,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1748521720416,
+    "read_only": false,
+    "read_only_alternatives": []
+}

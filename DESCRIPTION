@@ -1,0 +1,21 @@
+Package: bookrecommender
+Type: Package
+Title: A Book Recommender System with Shiny
+Version: 0.1.0
+Author: Gorkem Atilla
+Maintainer: The package maintainer <gorkem.atilla@student.uva.nl>
+Description: A simple collaborative filtering-based book recommender app built with Shiny.
+License: UvA
+Encoding: UTF-8
+LazyData: true
+<<<<<<< Updated upstream:DESCRIPTION 12.11.26 PM
+=======
+Imports:
+    shiny,
+    shinyjs,
+    shinyWidgets,
+    data.table,
+    recommenderlab,
+    methods
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
