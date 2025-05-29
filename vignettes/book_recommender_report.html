@@ -442,11 +442,7 @@ books are rated.</em></strong>
 <div id="installation-and-running-the-app" class="section level1">
 <h1><strong><em>Installation and Running the App</em></strong></h1>
 <p>To install the Book Recommender app from GitHub and launch it:</p>
-<pre class="r"><code># Clone the repository and open as a project
-usethis::create_from_github(&quot;Programming-The-Next-Step-2025/book-recommender&quot;, fork = FALSE)
-
-# Then run this inside the project directory
-devtools::install()
+<pre class="r"><code>remotes::install_github(&quot;Programming-The-Next-Step-2025/book-recommender&quot;)
 bookrecommender::run_app()</code></pre>
 </div>
 

@@ -111,10 +111,6 @@ knitr::include_graphics("recommendations.png")
 To install the Book Recommender app from GitHub and launch it:
 
 ```{r install-full, eval=FALSE, echo=TRUE}
-# Clone the repository and open as a project
-usethis::create_from_github("Programming-The-Next-Step-2025/book-recommender", fork = FALSE)
-
-# Then run this inside the project directory
-devtools::install()
+remotes::install_github("Programming-The-Next-Step-2025/book-recommender")
 bookrecommender::run_app()
 ```
