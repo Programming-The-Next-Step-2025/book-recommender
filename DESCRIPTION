@@ -8,8 +8,6 @@ Description: A simple collaborative filtering-based book recommender app built w
 License: UvA
 Encoding: UTF-8
 LazyData: true
-<<<<<<< Updated upstream:DESCRIPTION 12.11.26 PM
-=======
 Imports:
     shiny,
     shinyjs,
