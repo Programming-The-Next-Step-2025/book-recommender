@@ -46,18 +46,7 @@ The app uses the **Book-Crossing** dataset, including:
 
 ## 📦 Getting Started
 
-To install and run the app directly from GitHub:
-
-# Install devtools if you haven't already
-install.packages("devtools")
-
-# Install the package from GitHub
-devtools::install_github("Programming-The-Next-Step-2025/book-recommender")
-
-# Run the app
-bookrecommender::run_app()
-
-Alternatively, to clone and open the full project locally:
+To install and run the app from GitHub:
 
 # Clone the repository and open it as a project
 usethis::create_from_github("Programming-The-Next-Step-2025/book-recommender", fork = FALSE)
